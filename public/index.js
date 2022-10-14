@@ -8,8 +8,6 @@ async function main() {
   );
 }
 
-main();
-
 async function main() {
   const timeChartCanvas = document.querySelector("#time-chart");
   const highestPriceChartCanvas = document.querySelector(
@@ -67,3 +65,5 @@ async function main() {
     }
   }
 }
+
+main();
